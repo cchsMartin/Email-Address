@@ -10,7 +10,7 @@ public class EmailAddress {
 		System.out.println("What is your first name?");
 		String firstName = keyboard.nextLine();
 		
-		
+		//Seems strange to get birthday after first name.
 		System.out.println("Please type your birthday! (mm-dd-yyyy)");
 		String birthday = keyboard.nextLine();
 
@@ -31,8 +31,7 @@ public class EmailAddress {
 		System.out.println("Temporary Password : " + birthday.substring(0,2)+ birthday.substring(3,5)+ birthday.substring(6));
 //		int b = keyboard.nextInt();
 		System.out.println("*Password is weak, please change as soon as possible!*");
-		System.out.println("Have a great day shark!");
-		
+		System.out.println("Have a great day shark!");	
 	}
-
 }
+//Great 100/100
